@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+	<title>Village Brand Colors</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .color-input {
+            position: absolute;
+            top: 40%;
+            left: 10%;
+            height: 70px;
+            font-size: 1.6vw;
+            width: 80%;
+            padding: 10px;
+            border-radius: 10px;
+            border: 0;
+            background-color: rgba(255,255,255,0.5)
+        }
+
+        .color-input.rgb {
+            top: calc(40% + 75px)
+        }
+        
+        .block {
+            height: 100%;
+            width: 16.466667%;
+            display: inline-block;
+            margin: -2px;
+            position:relative;
+        }
+        
+        .green {
+            background-color:#86c170;
+        }
+
+        .teal {
+            background-color: #47b6a5;
+        }
+
+        .lime {
+            background-color: #c0d344;
+        }
+
+        .blue {
+            background-color: #425d8d;
+        }
+
+        .light {
+            background-color: #c0dad2
+        }
+
+        .dark {
+            background-color: #3c3c3b
+        }
+    </style>
+    </head>
+    <body>
+
+        <div class="block teal">
+            <input class="color-input" value="#47b6a5">
+            <input class="color-input rgb" value="rgba(71,182,165,1)">
+        </div>
+
+        <div class="block lime">
+                <input class="color-input" value="#c0d344">
+                <input class="color-input rgb" value="rgba(192,221,68,1)">
+         </div>
+
+        <div class="block green">
+                <input class="color-input" value="#86c170">
+                <input class="color-input rgb" value="rgba(71,182,165,1)">
+		</div>
+
+		<div class="block blue">
+            <input class="color-input" value="#425d8d">
+            <input class="color-input rgb" value="rgba(66,93,141,1)">
+        </div>
+
+        <div class="block dark">
+                <input class="color-input" value="#3c3c3b">
+                <input class="color-input rgb" value="rgba(60,60,60,1)">
+        </div>
+
+        <div class="block light">
+                <input class="color-input" value="#c0dad2">
+                <input class="color-input rgb" value="rgba(192,218,210,1)">
+        </div>
+
+    </body>
+</html>
