@@ -1,27 +1,33 @@
-body {
+
+html, body {
+	height: 100%;
 	margin: 0;
 }
 
+body {
+	min-width: 900px;
+}
+
 .color-input {
-	position: absolute;
-	top: 40%;
-	left: 10%;
-	height: 70px;
-	font-size: 1.6vw;
-	width: 80%;
+	margin-top: 10px;
+	height: 50px;
+	font-size: 110%;
+	width: calc(100% - 20px);
 	padding: 10px;
-	border-radius: 10px;
+	border-radius: 5px;
 	border: 0;
 	background-color: rgba(255,255,255,0.5)
 }
 
-.color-input.rgb {
-	top: calc(40% + 75px)
+.input-wrapper {
+	margin: auto;
+	margin-top: 25vh;
+	width: 90%;
 }
 
 .block {
 	height: 100%;
-	width: 16.466667%;
+	width: 16.666667%;
 	display: inline-block;
 	margin: -2px;
 	position:relative;
